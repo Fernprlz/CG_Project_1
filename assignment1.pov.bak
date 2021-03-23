@@ -85,13 +85,16 @@ box {
   rotate <0, 5.3, 0>
 }
 
-
+  /*
 prism {
    linear_sweep
    linear_spline
-   0, // sweep the following shape from here ...
-   1, // ... up through here
-   7, // the number of points making up the shape ...
+   0, 
+   1, 
+   7, 
    <-29.8, 18.5>, <-12.4, 19.1>, <-4.8, 30.9>, <-12.4, 42.6>, <-29.8, 42.6>, <-37.8, 30.9>, <5,0>,
-   pigment { Green }
+   pigment { 
+    Green 
+   }
  }
+    */

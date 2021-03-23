@@ -3,15 +3,19 @@
 
 //######### Camera #########//
 camera {
-  location <0, 100, -100>
+  location <0, 100, 0>
   look_at <0, 0, 0>
 }
+
+
 
 //######### Lights #########//
 light_source {
   <50, 50, 100>
   White
-}
+}       
+
+
 //######### Background #########//
 sky_sphere {
   pigment {
@@ -19,7 +23,7 @@ sky_sphere {
     // Define the colors of the gradient
     color_map{
       [0 color White]
-      [1 color DarkSlateBlue]
+      [1 color Orange]
     }
     // Scale the gradient to make it twice as big
     scale 2
